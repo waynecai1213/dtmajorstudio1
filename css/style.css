@@ -1,0 +1,125 @@
+body{
+    
+    background-color: white;
+    max-width: 60%;
+    height: 100%; 
+    margin: auto;
+    font-family: Livvic,sans-serif;
+    color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.top-bar{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-size: 24px;
+}
+
+.logo{
+    font-weight: 700;
+    margin: 0px auto;
+    letter-spacing: 2px;
+}
+
+.menu{
+ 
+    list-style-type: none;
+    width: auto;
+    float: right;
+   
+}
+
+.menu-item{
+    margin-left: 12px;
+    display: inline;
+}
+
+.slogan-1{
+    position: fixed;
+    bottom: 500px;
+    left: 0px;
+    width: 400px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: rgb(255, 255, 255);
+    transform: rotate(90deg);
+}
+.slogan-1 span{
+    background-color: black
+}
+.slogan-2{
+    position: fixed;
+    bottom: 400px;
+    left: 0px;
+    width: 500px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    
+    transform: rotate(90deg);
+}
+.slogan-2 span{
+    
+}
+
+.content{
+
+}
+
+
+.post{
+    width: 100%;
+
+}
+.date{
+    color: #ccc;
+}
+
+.brief{
+    width: 100%;
+}
+
+.img-post{
+ width: 40%;
+ display:block;
+ margin: 20px auto 20px auto;
+ 
+    
+}
+
+.label{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.label span{
+    background-color: black;
+    color:white;
+    
+
+}
+
+@media (max-width:767px){
+    body{
+        width: 80%;
+    }
+
+}
+
+
+@media (min-width:1142px){
+    body{
+        width: 40%;
+    }
+
+}
