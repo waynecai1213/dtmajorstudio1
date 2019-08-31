@@ -1,1 +1,1 @@
-var viewer = new Viewer(document.getElementById('dowebok'));
+var viewer = new Viewer(document.getElementsByClassName('img-post'));
