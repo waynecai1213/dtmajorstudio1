@@ -13,6 +13,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 .top-bar{
     width: 100%;
     margin-top: 30px;
@@ -70,9 +71,30 @@ a {
     
 }
 
+.filter{
+   /* text-align: right; */
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.filter-item{
+    
+    margin-right:30px; 
+}
+
+
+.filter-current a{
+
+    color: white;
+     background-color: black; 
+   
+}
+
 .content{
 
 }
+
 
 
 .post{
