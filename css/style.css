@@ -1,7 +1,7 @@
 body{
     
     background-color: white;
-    max-width: 60%;
+    max-width: 80%;
     height: 100%; 
     margin: auto;
     font-family: Livvic,sans-serif;
@@ -28,26 +28,16 @@ a {
 .logo{
     font-weight: 700;
     margin: 0px auto;
+    padding-left: 10px;
     letter-spacing: 2px;
 }
 
-.menu{
- 
-    list-style-type: none;
-    width: auto;
-    float: right;
-   
-}
 
-.menu-item{
-    margin-left: 12px;
-    display: inline;
-}
 
 .slogan-1{
     position: fixed;
     bottom: 500px;
-    left: 0px;
+    left: -40px;
     width: 400px;
     font-size: 12px;
     text-transform: uppercase;
@@ -62,7 +52,7 @@ a {
 .slogan-2{
     position: fixed;
     bottom: 400px;
-    left: 0px;
+    left: -40px;
     width: 500px;
     font-size: 12px;
     text-transform: uppercase;
@@ -71,35 +61,46 @@ a {
     
     transform: rotate(90deg);
 }
-.slogan-2 span{
-    
-}
 
-.filter{
-   /* text-align: right; */
-    width: 100%;
-    margin-top: 20px;
+
+.menu{
+   
+   text-align: right;
+   width: auto;
+    margin-top: 40px;
     margin-bottom: 60px;
+    font-size: 16px;
 }
 
-.filter-item{
-    
+.menu-item{
     margin-right:30px; 
 }
 
 
-.filter-current a{
+.menu-current a{
 
     color: white;
-     background-color: black; 
+    background-color: black; 
    
 }
 
-.content{
-
+.container{
+    display: inline-block;
+    text-align:center;
+    margin:20px auto;
+    width: 100%;
+   
+   
 }
 
-
+.blog{
+    float: left;
+    text-align:center;
+    width:30%;
+    height:300px;
+    margin: 20px 10px 40px 10px;
+    background-color: blanchedalmond;
+}
 
 .post{
     width: 100%;
@@ -138,7 +139,7 @@ a {
 
 @media (max-width:767px){
     body{
-        width: 80%;
+        width: 100%;
     }
 
 }
@@ -146,7 +147,7 @@ a {
 
 @media (min-width:1142px){
     body{
-        width: 40%;
+        width: 60%;
     }
 
 }
