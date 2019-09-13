@@ -10,12 +10,20 @@ body{
 }
 
 p{
- letter-spacing: 2;
-
+    letter-spacing: 2;
+    line-height:20px;
 }
+
 a {
     text-decoration: none;
     color: black;
+}
+
+li{
+    line-height:24px;
+}
+.divider1{
+    margin-top: 40px;
 }
 
 .top-bar{
@@ -84,6 +92,11 @@ a {
    
 }
 
+.content{
+    margin:20px auto;
+    width: 80%;
+}
+
 .container{
     display: inline-block;
     text-align:center;
@@ -92,6 +105,12 @@ a {
    
    
 }
+
+/* .img-center{
+    width: 80%;
+    margin:10px auto;
+} */
+
 
 .blog{
     position: relative;
@@ -131,7 +150,7 @@ a {
     /* opacity: 0.2; */
   }
   
-  .blog-info {
+.blog-info {
       position: absolute;
       width: 100%;
       height: auto;
@@ -141,27 +160,45 @@ a {
      opacity: 1;
     }
 
-.post{
-    width: 100%;
+.ccblog{
+    background: black;
+    color: white; 
+ }
 
+.ccblog:hover .blog-info{
+    opacity:1;
+}
+
+
+.post-ms{
+    width: 100%;
+}
+
+
+.post-cc{
+    width: 80%;
+}
+
+.title{
+    margin-bottom: 40px;
 }
 
 .date{
     color: #ccc;
-    margin-bottom: 20px;
+    
 }
 
 .brief{
     width: 100%;
 }
 
+/* 
 .img-post{
  width: 40%;
  display:block;
  margin: 20px auto 20px auto;
- 
-    
-}
+
+} */
 
 .label{
     display: block;
