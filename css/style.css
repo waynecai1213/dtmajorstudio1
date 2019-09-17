@@ -22,6 +22,7 @@ a {
 li{
     line-height:24px;
 }
+
 .divider1{
     margin-top: 40px;
 }
@@ -113,6 +114,8 @@ li{
 
 
 .blog{
+    background: black;
+    color: white;
     position: relative;
     float: left;
     text-align:center;
