@@ -9,6 +9,10 @@ body{
     
 }
 
+h3{
+    margin-top: 40px;
+}
+
 p{
     letter-spacing: 2;
     line-height:20px;
@@ -177,6 +181,11 @@ li{
     width: 100%;
 }
 
+
+.div4center{
+    width: 100%;
+    text-align: center;
+}
 
 .post-cc{
     width: 80%;
