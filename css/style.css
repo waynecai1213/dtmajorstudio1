@@ -16,9 +16,22 @@ h3{
 p{
     letter-spacing: 2;
     line-height:20px;
+
 }
 
 #MS1-8 p{
+    font-size:18px;
+    letter-spacing: 2;
+    line-height:30px;
+}
+
+#MS1-16a p{
+    font-size:18px;
+    letter-spacing: 3;
+    line-height:30px;
+}
+
+#MS1-17a p{
     font-size:18px;
     letter-spacing: 2;
     line-height:30px;
